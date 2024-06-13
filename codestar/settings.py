@@ -33,7 +33,7 @@ os.environ.setdefault("SECRET_KEY", "django-insecure-(n&9$f$sz256r2d9@md*ljs=d!1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['pp4-app-179fac522642.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '8000-izzo2le-pp4-nhch83b5hah.ws-eu114.gitpod.io']
 
 
 # Application definition
