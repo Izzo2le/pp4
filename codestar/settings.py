@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep the secret key used in production secret!f
 SECRET_KEY = os.environ.get("django-insecure-(n&9$f$sz256r2d9@md*ljs=d!1msjo!9c_nu^if=g&c=@wcga")
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL")
 }
 
 # Password validation
